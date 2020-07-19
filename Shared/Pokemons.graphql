@@ -1,0 +1,9 @@
+query pokemons($first: Int!){
+  pokemons(first: $first){
+    id
+    number
+    name
+    classification
+    image
+  }
+}
