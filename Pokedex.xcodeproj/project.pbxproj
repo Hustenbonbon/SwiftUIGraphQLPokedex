@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,20 @@
 		658A4C4024C479C800631FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C2B24C479C800631FB9 /* ContentView.swift */; };
 		658A4C4124C479C800631FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658A4C2C24C479C800631FB9 /* Assets.xcassets */; };
 		658A4C4224C479C800631FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658A4C2C24C479C800631FB9 /* Assets.xcassets */; };
+		658A4C6A24C49B4000631FB9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6424C49B3F00631FB9 /* Network.swift */; };
+		658A4C6B24C49B4000631FB9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6424C49B3F00631FB9 /* Network.swift */; };
+		658A4C6C24C49B4000631FB9 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 658A4C6524C49B3F00631FB9 /* schema.json */; };
+		658A4C6D24C49B4000631FB9 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 658A4C6524C49B3F00631FB9 /* schema.json */; };
+		658A4C6E24C49B4000631FB9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6624C49B4000631FB9 /* API.swift */; };
+		658A4C6F24C49B4000631FB9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6624C49B4000631FB9 /* API.swift */; };
+		658A4C7024C49B4000631FB9 /* Api+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6724C49B4000631FB9 /* Api+Extensions.swift */; };
+		658A4C7124C49B4000631FB9 /* Api+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6724C49B4000631FB9 /* Api+Extensions.swift */; };
+		658A4C7224C49B4000631FB9 /* PokeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6824C49B4000631FB9 /* PokeCard.swift */; };
+		658A4C7324C49B4000631FB9 /* PokeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658A4C6824C49B4000631FB9 /* PokeCard.swift */; };
+		658A4C7424C49B4000631FB9 /* Pokemons.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 658A4C6924C49B4000631FB9 /* Pokemons.graphql */; };
+		658A4C7524C49B4000631FB9 /* Pokemons.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 658A4C6924C49B4000631FB9 /* Pokemons.graphql */; };
+		658A4C7824C49B6400631FB9 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 658A4C7724C49B6400631FB9 /* URLImage */; };
+		659F4F8024C9CBE100F4F320 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 659F4F7F24C9CBE100F4F320 /* Apollo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,12 @@
 		658A4C3924C479C800631FB9 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658A4C3B24C479C800631FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		658A4C3C24C479C800631FB9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		658A4C6424C49B3F00631FB9 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		658A4C6524C49B3F00631FB9 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		658A4C6624C49B4000631FB9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		658A4C6724C49B4000631FB9 /* Api+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Extensions.swift"; sourceTree = "<group>"; };
+		658A4C6824C49B4000631FB9 /* PokeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCard.swift; sourceTree = "<group>"; };
+		658A4C6924C49B4000631FB9 /* Pokemons.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pokemons.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658A4C7824C49B6400631FB9 /* URLImage in Frameworks */,
+				659F4F8024C9CBE100F4F320 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +79,12 @@
 		658A4C2924C479C800631FB9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				658A4C6624C49B4000631FB9 /* API.swift */,
+				658A4C6724C49B4000631FB9 /* Api+Extensions.swift */,
+				658A4C6424C49B3F00631FB9 /* Network.swift */,
+				658A4C6824C49B4000631FB9 /* PokeCard.swift */,
+				658A4C6924C49B4000631FB9 /* Pokemons.graphql */,
+				658A4C6524C49B3F00631FB9 /* schema.json */,
 				658A4C2A24C479C800631FB9 /* PokedexApp.swift */,
 				658A4C2B24C479C800631FB9 /* ContentView.swift */,
 				658A4C2C24C479C800631FB9 /* Assets.xcassets */,
@@ -106,6 +134,10 @@
 			dependencies = (
 			);
 			name = iOS;
+			packageProductDependencies = (
+				658A4C7724C49B6400631FB9 /* URLImage */,
+				659F4F7F24C9CBE100F4F320 /* Apollo */,
+			);
 			productName = iOS;
 			productReference = 658A4C3124C479C800631FB9 /* Pokedex.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +185,10 @@
 				Base,
 			);
 			mainGroup = 658A4C2424C479C800631FB9;
+			packageReferences = (
+				658A4C7624C49B6400631FB9 /* XCRemoteSwiftPackageReference "url-image" */,
+				659F4F7E24C9CBE100F4F320 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 658A4C3224C479C800631FB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -168,6 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658A4C7424C49B4000631FB9 /* Pokemons.graphql in Resources */,
+				658A4C6C24C49B4000631FB9 /* schema.json in Resources */,
 				658A4C4124C479C800631FB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658A4C7524C49B4000631FB9 /* Pokemons.graphql in Resources */,
+				658A4C6D24C49B4000631FB9 /* schema.json in Resources */,
 				658A4C4224C479C800631FB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +229,10 @@
 			files = (
 				658A4C3F24C479C800631FB9 /* ContentView.swift in Sources */,
 				658A4C3D24C479C800631FB9 /* PokedexApp.swift in Sources */,
+				658A4C7224C49B4000631FB9 /* PokeCard.swift in Sources */,
+				658A4C7024C49B4000631FB9 /* Api+Extensions.swift in Sources */,
+				658A4C6E24C49B4000631FB9 /* API.swift in Sources */,
+				658A4C6A24C49B4000631FB9 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +242,10 @@
 			files = (
 				658A4C4024C479C800631FB9 /* ContentView.swift in Sources */,
 				658A4C3E24C479C800631FB9 /* PokedexApp.swift in Sources */,
+				658A4C7324C49B4000631FB9 /* PokeCard.swift in Sources */,
+				658A4C7124C49B4000631FB9 /* Api+Extensions.swift in Sources */,
+				658A4C6F24C49B4000631FB9 /* API.swift in Sources */,
+				658A4C6B24C49B4000631FB9 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +487,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		658A4C7624C49B6400631FB9 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.18;
+			};
+		};
+		659F4F7E24C9CBE100F4F320 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.30.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		658A4C7724C49B6400631FB9 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 658A4C7624C49B6400631FB9 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		659F4F7F24C9CBE100F4F320 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 659F4F7E24C9CBE100F4F320 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 658A4C2524C479C800631FB9 /* Project object */;
 }
